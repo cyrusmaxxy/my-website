@@ -508,14 +508,28 @@ section {
 /* # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  padding: 60px;
+  background: #f5f8fd;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
 }
 
 .contact .info {
-  padding: 30px;
+  
   background: #fff;
-  width: 100%;
+  padding: 60px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 70px;
+  max-width: 900px;
+  border-radius: 10px;
+  margin: 0 auto 30px auto;   /* Center the card horizontally */
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+
 }
 
 .contact .info i {
